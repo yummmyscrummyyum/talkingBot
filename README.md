@@ -51,7 +51,7 @@ When the bot decides to talk, it does the following:
    DISCORD_TOKEN=your_token_here
    TARGET_CHANNEL_ID=123456789012345678
    ```
-4. Populate `channel_messages.txt` with messages (one per line) and optionally `channel_images.txt` with image URLs
+4. Populate `channel_messages.txt` with messages (one per line) and optionally `channel_images.txt` with image URLs. The bot will consistently track messages and populate the .txt files. You can optionally create a "scraper" of some sorts to automatically populate the messages.txt.
 5. Run the bot:
    ```
    python main.py
