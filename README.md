@@ -7,7 +7,7 @@
 
 ## Overview
 
-This is a Discord bot that lurks in a channel and periodically sends AI-generated messages using a **Markov chain** text model. It learns from a dataset of messages you provide and generates new sentences that mimic the style of that data. It can also randomly send images from a list you supply. It will automatically pick up messages and images sent in the target channel.
+This is a Discord bot that lurks in a channel and periodically sends AI-generated messages using a **Markov chain** text model. It learns from a dataset of messages you provide and generates new sentences that mimic the style of that data. It can also randomly send images from a list.
 
 ---
 
