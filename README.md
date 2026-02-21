@@ -59,7 +59,7 @@ When the bot decides to talk, it does the following:
 
 ---
 
-## Parameters
+## Things to consider / change
 
 ### Change How Often the Bot Speaks
 The trigger threshold is currently random between 20–30 messages. You can tighten or widen this range:
@@ -126,7 +126,7 @@ if message.channel.id == TARGET_CHANNEL_ID and message.author != client.user:
 
 ---
 
-## To take into consideration...
+## Further info
 - The more data in `channel_messages.txt`, the better and more varied the generated sentences will be. A few hundred lines is a minimum; thousands is ideal.
 - If the Markov model can't generate a sentence (too little data), it silently fails and logs a message to the console.
 - The bot ignores its own messages to prevent feedback loops.
